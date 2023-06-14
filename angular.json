@@ -103,11 +103,10 @@
           }
         },
         "deploy": {
-          "builder": "@netlify-builder/deploy:deploy",
+          "builder": "@angular/fire:deploy",
           "options": {
-            "outputPath": "dist/tic-tact-toe",
-            "netlifyToken": "DYsuMExx4KvdIAgo2gEFfiC4O4h8EJRtE2TrgnvN8nk",
-            "siteId": ""
+            "version": 2,
+            "browserTarget": "tic-tact-toe:build:production"
           }
         }
       }

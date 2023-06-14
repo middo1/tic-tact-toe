@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "middo-tic-tac-toe"
+  },
+  "targets": {
+    "middo-tic-tac-toe": {
+      "hosting": {
+        "tic-tact-toe": [
+          "middo-tic-tac-toe"
+        ]
+      }
+    }
+  }
+}
